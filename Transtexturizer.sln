@@ -5,6 +5,20 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transtexturizer", "Transtexturizer\Transtexturizer.csproj", "{D218B91D-AA39-4FB9-BBB0-312F6C539FE5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Referenced Assemblies", "Referenced Assemblies", "{DB90811A-A73E-4E30-8B68-796606671B5B}"
+	ProjectSection(SolutionItems) = preProject
+		Referenced Assemblies\0Harmony.dll = Referenced Assemblies\0Harmony.dll
+		Referenced Assemblies\Assembly-CSharp.dll = Referenced Assemblies\Assembly-CSharp.dll
+		Referenced Assemblies\JsonFx.dll = Referenced Assemblies\JsonFx.dll
+		Referenced Assemblies\Spectrum.API.dll = Referenced Assemblies\Spectrum.API.dll
+		Referenced Assemblies\Spectrum.Interop.dll = Referenced Assemblies\Spectrum.Interop.dll
+		Referenced Assemblies\Spectrum.Manager.dll = Referenced Assemblies\Spectrum.Manager.dll
+		Referenced Assemblies\UnityEngine.dll = Referenced Assemblies\UnityEngine.dll
+		Referenced Assemblies\UnityEngine.Networking.dll = Referenced Assemblies\UnityEngine.Networking.dll
+		Referenced Assemblies\UnityEngine.UI.dll = Referenced Assemblies\UnityEngine.UI.dll
+		Referenced Assemblies\UnityEngine.VR.dll = Referenced Assemblies\UnityEngine.VR.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
