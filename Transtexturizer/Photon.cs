@@ -53,7 +53,7 @@ namespace Transtexturizer
         public bool levelloadcomplete;
         public int framecount = 0;
         public int currentframe = 0;
-
+        
         public void Update()
         {
             
@@ -95,9 +95,9 @@ namespace Transtexturizer
                     return;
                 }
             }
-            
+
             // Generate a number for the rng but make sure it's the same each frame.
-            var MD5Input = renderer.name + Util.GameObjectPath(renderer.transform);
+            var MD5Input = renderer.name + Util.GameObjectPath(renderer.transform) + renderer.transform.position.ToString() + renderer.transform.rotation.ToString() + renderer.transform.lossyScale.ToString();
             MD5 MD5Hasher = MD5.Create();
             var Hashed = MD5Hasher.ComputeHash(Encoding.UTF8.GetBytes(MD5Input));
             var RNGSeed = BitConverter.ToInt32(Hashed, 0);
